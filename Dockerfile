@@ -58,6 +58,7 @@ RUN apk --no-cache add \
     sqlite \
     su-exec \
     gnupg \
+    jupyter-nbconvert \
     && rm -rf /var/cache/apk/*
 
 RUN addgroup \
